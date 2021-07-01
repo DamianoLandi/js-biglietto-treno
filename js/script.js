@@ -19,6 +19,10 @@ else if (age > 65){
     var price = (dist * 0.21 / 100 * 60)
 }
 
+else if (age < 0 || dist < 0 || isNaN(age) || isNaN(dist)){
+    alert("I valori inseriti non sono validi.")
+}
+
 else {
     var price = (dist * 0.21)
 }
