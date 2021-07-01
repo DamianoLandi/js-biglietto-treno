@@ -24,3 +24,9 @@ else {
 }
 
 console.log(price);
+
+//Print in HTML
+
+var prezzoFinale = document.getElementById("prezzo");
+
+prezzoFinale.innerHTML = price.toFixed(2);
